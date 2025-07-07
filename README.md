@@ -1,1 +1,2 @@
 # Restraunt-website-
+the restraunt website is made using php, html,css, the rest backend partis still under process and am working on it , in future i will try to add the database via servlet if php will be succesful
