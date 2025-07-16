@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restraunt website </title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Foods</a>
+                <ul>
+                    <li>Italian</li>
+                 <li>Chinese</li>
+            <li>Afghani</li>
+            <li>Indian</li>
+            <li>American</li>
+            <li>European</li>
+
+
+                </ul>
+            </li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Order</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+<div class="container-left">
+    <h1 style="font-family: cursive;font-size: 70px;"> Let's eat something</h1>
+    <p style="font-family: cursive; font-size: 20px;" >The Best Restraunt In Tricity Is Here!</p>
+    <br>
+    <br>
+    <button style="background-color: tomato; margin-right: 20px;"> View more</button>
+<button style="background-color:greenyellow font ;;margin-left: 20px"><a style="text-decoration:none;" href="login.php">Order</a></button>
+<br>
+<img src="images/happy-kind-hamburger-cartoon-character-on-transparent-background-for-decorating-projects-png.webp" width="40%" style="margin-top:10%;"  alt="lol">
+</div>
+<div class="container-right">
+    <img src="images/Burger-Food-PNG.png" style="margin-top:20%" alt="Burger-Food-PNG">
+    
+</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <!-- ye hamara abse shuru hoga why choose us wala tab -->
+    
+    <h2 style="font-size: 70px;font-family: cursive;text-align: center;">Why Choose Us???</h2>
+
+    <div class="featured-outer">
+ 
+       <div class="featured-icon">
+    <div class="icon-box"><i class="fa fa-cutlery"></i>
+    <p style="font-size: 60px; font-family: cursive;">
+    Veg & Nonveg</p></div>
+    <div class="icon-box"><i class="fa fa-clock-o"></i>
+     <p style="font-size: 60px; font-family: cursive;">
+    24 x 7</p></div>
+    <div class="icon-box"><i class="fa fa-motorcycle"></i> <p style="font-size: 60px; font-family: cursive;">
+   Home delivery</p></div>
+    <div class="icon-box"><i class="fa fa-birthday-cake"></i> <p style="font-size: 60px; font-family: cursive;">
+    Birthday cebration </p></div>
+    <div class="icon-box"><i class="fa fa-star"></i> <p style="font-size: 60px; font-family: cursive;">
+    5 Star rated chefs </p></div>
+</div>
+     </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <div>
+<h1 style="font-size: 70px;font-family: cursive;text-align: center;">Our famous Dishes</h1>
+<br>
+<br>
+<br>
+<br>
+<div class="gallery">
+    <div class="featured-img">
+        <img src="images/korean-dishes.webp" alt="korean-dishes">
+    </div>
+    <div class="featured-img">
+        <img src="images/butter naan.jpg" alt="butter naan">
+    </div>
+    <div class="featured-img">
+        <img src="images/pasta.jpg" alt="pasta">
+    </div>
+    <div class="featured-img">
+        <img src="images/pizza.jpg" alt="pizza">
+    </div>
+    <div class="featured-img">
+        <img src="images/european.webp" alt="europeon dish">
+    </div>
+    <div class="featured-img">
+        <img src="images/afghanichaap.webp" alt="afghanichaap">
+    </div>
+
+</div>
+
+     
+     <div class="section-heading">
+    <h2>Special food items</h2>
+    <br>
+    <br><br>
+</div>
+<div class="content">
+    <div class="left">
+        <img src="images/tandoor burger.jpg" alt="tandoori burger">
+    </div>
+    <div class="right">
+        <p style="font-family: cursive;">Tandoori Burger: A Fusion Delight
+
+The Tandoori Burger is a mouthwatering fusion of traditional Indian flavors and the classic Western burger. It brings together the smoky essence of tandoori spices with the convenience and appeal of fast food, making it a favorite among food lovers across generations. At the heart of the burger lies a juicy patty—usually made of chicken, paneer, or soya—marinated in a blend of yogurt and tandoori masala, then grilled to perfection. The spicy, smoky flavor of the patty is perfectly balanced with fresh lettuce, onions, tomatoes, and a creamy mint or mayo sauce.
+
+What sets the Tandoori Burger apart is its unique taste profile. The use of traditional Indian spices like cumin, coriander, and chili powder gives it a bold and zesty punch, while the grilling process imparts an irresistible charred aroma. Served between soft burger buns and sometimes even layered with cheese, it offers a satisfying crunch and a burst of flavor in every bite.
+
+Popular in Indian cafes and fast-food chains, the Tandoori Burger symbolizes modern Indian street food innovation. It is not just a meal but an experience—a perfect blend of East and West, tradition and trend, offering something familiar yet excitingly new.</p>
+</div>
+</div>
+<br>
+<br><br>
+<div class="content">
+    
+    <div class="right">
+        <p style="font-family: cursive;">Tandoori Chicken Momos are a spicy and flavorful twist on the classic Tibetan dumpling, blending Indo-Chinese street food with rich North Indian tandoori flavors. These momos are first filled with a delicious mixture of minced chicken, herbs, and spices, then steamed to seal in the juices. What makes them unique is the second layer of cooking—after steaming, they are marinated in a blend of yogurt, red chili powder, garam masala, and other traditional tandoori spices, and then grilled or roasted until slightly charred.
+
+The result is a momo that’s crispy on the outside, juicy and smoky on the inside. The tandoori marinade adds a fiery punch and a vibrant red hue that makes it visually irresistible. Usually served with mint chutney, spicy red sauce, and sliced onions, Tandoori Chicken Momos offer a mouthwatering combination of textures and flavors.
+
+Loved by foodies all across India, especially in Delhi and North Indian regions, these momos represent a creative blend of cultures. They're not just a snack but a bold culinary statement—perfect for those who enjoy intense flavors and fusion foods. Tandoori Chicken Momos are truly a street food delicacy that leaves a lasting impression.</p>
+</div>
+<div class="left">
+        <img src="images/tandoori chicken momos.jpg" alt="tandoori chicken momos">
+    </div>
+</div>
+<br>
+<br><br><br>
+<div class="lastpart">
+    <h1> Our location </h1> 
+<div class="maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.3615336119337!2d76.72308689999998!3d30.70823520000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef9d3389dbeb%3A0x21ed48768cdb69cf!2sKalsang%20Cafe%20and%20Restaurant%20(Mohali)!5e0!3m2!1sen!2sin!4v1751434967182!5m2!1sen!2sin" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+</div>
+
+</body>
+</html>
