@@ -14,7 +14,7 @@ if (!isset($_SESSION["email"])) {
    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restraunt website </title>
+    <title>Restaurant website </title>
     <link rel="stylesheet" type="text/css"href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -23,20 +23,20 @@ if (!isset($_SESSION["email"])) {
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Foods</a>
+            <li><a href="http://localhost/restraunt/food.php">Foods</a>
                 <ul>
-                    <li>Italian</li>
-                 <li>Chinese</li>
-            <li>Afghani</li>
-            <li>Indian</li>
-            <li>American</li>
-            <li>European</li>
+                    <a href="http://localhost/restraunt/food.php#italian">Italian</a></li>
+                 <li><a href="http://localhost/restraunt/food.php#Chinese">Chinese</a></li>
+            <li><a href="http://localhost/restraunt/food.php#Afghani">Afghani</a></li>
+            <li><a href="http://localhost/restraunt/food.php#Indian">Indian</a></li>
+            <li><a href="http://localhost/restraunt/food.php#American">American</a></li>
+            <li><a href="http://localhost/restraunt/food.php#European">European</a></li>
 
 
                 </ul>
             </li>
-            <li><a href="">Menu</a></li>
-            <li><a href=""></a></li>
+            <li><a href="http://localhost/restraunt/menu.php">Place your order</a></li>
+            <li><a href="https://www.google.com/maps/place/Kalsang+Cafe+and+Restaurant+(Mohali)/@30.7082352,76.720512,17z/data=!3m1!4b1!4m6!3m5!1s0x390fef9d3389dbeb:0x21ed48768cdb69cf!8m2!3d30.7082352!4d76.7230869!16s%2Fg%2F11s3y6y6bt?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D">Visit us </a></li>
             <li><a href="">Contact</a></li>
         </ul>
     </div>
@@ -46,17 +46,17 @@ if (!isset($_SESSION["email"])) {
 <div class="container-left">
      <h1 style="font-family:cursive;">Welcome, <?= htmlspecialchars($_SESSION["email"]) ?> 👋</h1>
     <h1 style="font-family: cursive;font-size: 70px;"> Let's eat something</h1>
-    <p style="font-family: cursive; font-size: 20px;" >The Best Restraunt In Tricity Is Here!</p>
+    <p style="font-family: cursive; font-size: 20px;" >The Best Restaurant In Tricity Is Here!</p>
     <br>
     <br>
-    <button style="background-color: tomato; margin-right: 20px;"> View more</button>
+    <button style="background-color: tomato; margin-right: 20px;"> <a style="text-decoration:none;" href="http://localhost/restraunt/food.php">Foods</a></button>
 <button style="background-color:greenyellow;margin-left: 20px "><a style="text-decoration:none" href="logout.php">Logout</a></button>
 <br>
    
 <img src="images/happy-kind-hamburger-cartoon-character-on-transparent-background-for-decorating-projects-png.webp" width="40%" style="margin-top:10%;"  alt="lol">
 </div>
 <div class="container-right">
-    <img src="images/Burger-Food-PNG.png" style="margin-top:20%" alt="Burger-Food-PNG">s
+    <img src="images/Burger-Food-PNG.png" style="margin-top:20%" alt="Burger-Food-PNG">
     
 </div>
     </div>
@@ -154,7 +154,7 @@ Loved by foodies all across India, especially in Delhi and North Indian regions,
 </div>
 <br>
 <br><br><br>
-<div class="lastpart">
+<div class="lastpart" id="maps">
     <h1> Our location </h1> 
 <div class="maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.3615336119337!2d76.72308689999998!3d30.70823520000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef9d3389dbeb%3A0x21ed48768cdb69cf!2sKalsang%20Cafe%20and%20Restaurant%20(Mohali)!5e0!3m2!1sen!2sin!4v1751434967182!5m2!1sen!2sin" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

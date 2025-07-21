@@ -4,7 +4,7 @@ session_start();
 
 session_unset();    
 ?>
-<meta http-equiv = "refresh" content = "0; url =http://localhost/crud/login.php" />
+<meta http-equiv = "refresh" content = "0; url =http://localhost/restraunt/login.php" />
 <?php
 
 ?>

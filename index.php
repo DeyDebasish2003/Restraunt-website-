@@ -11,22 +11,23 @@
 <body>
     <div id="menu">
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="http://localhost/restraunt/index.php">Home</a></li>
             <li><a href="">About</a></li>
-            <li><a href="">Foods</a>
+            <li><a href="http://localhost/restraunt/food.php">Foods</a>
                 <ul>
-                    <li>Italian</li>
-                 <li>Chinese</li>
-            <li>Afghani</li>
-            <li>Indian</li>
-            <li>American</li>
-            <li>European</li>
+                  <a href="http://localhost/restraunt/food.php#italian">Italian</a></li>
+                 <li><a href="http://localhost/restraunt/food.php#Chinese">Chinese</a></li>
+            <li><a href="http://localhost/restraunt/food.php#Afghani">Afghani</a></li>
+            <li><a href="http://localhost/restraunt/food.php#Indian">Indian</a></li>
+            <li><a href="http://localhost/restraunt/food.php#American">American</a></li>
+            <li><a href="http://localhost/restraunt/food.php#European">European</a></li>
+
 
 
                 </ul>
             </li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Order</a></li>
+            <li><a href="http://localhost/restraunt/menu.php">Menu</a></li>
+            <li><a href="https://www.google.com/maps/place/Kalsang+Cafe+and+Restaurant+(Mohali)/@30.7082352,76.720512,17z/data=!3m1!4b1!4m6!3m5!1s0x390fef9d3389dbeb:0x21ed48768cdb69cf!8m2!3d30.7082352!4d76.7230869!16s%2Fg%2F11s3y6y6bt?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D">Visit us </a></li>
             <li><a href="">Contact</a></li>
         </ul>
     </div>
@@ -36,7 +37,7 @@
     <p style="font-family: cursive; font-size: 20px;" >The Best Restraunt In Tricity Is Here!</p>
     <br>
     <br>
-    <button style="background-color: tomato; margin-right: 20px;"> View more</button>
+    <button style="background-color: tomato; margin-right: 20px;"> <a style="text-decoration:none;" href="http://localhost/restraunt/food.php">Foods</a></button>
 <button style="background-color:greenyellow font ;;margin-left: 20px"><a style="text-decoration:none;" href="login.php">Order</a></button>
 <br>
 <img src="images/happy-kind-hamburger-cartoon-character-on-transparent-background-for-decorating-projects-png.webp" width="40%" style="margin-top:10%;"  alt="lol">
